@@ -1,4 +1,4 @@
-package LaçoCondicional;
+package LaÃ§oCondicional;
 import java.util.*;
 public class IdadeNome {
 public static void main(String args[])
@@ -16,20 +16,20 @@ public static void main(String args[])
 	System.out.println("Entre com seu nome: ");
 	nome=ler.nextLine();
 	
-	System.out.printf("Seu nome é: %s",nome);
-	System.out.printf("\nSua idade é: %d",idade);
+	System.out.printf("Seu nome Ã©: %s",nome);
+	System.out.printf("\nSua idade Ã©: %d",idade);
 	
 	if(idade>=18)
 	{
-	System.out.println("\nVocê é de Maior");
+	System.out.println("\nVocÃª Ã© de Maior");
 	}
 	else if(idade<18 && idade>=0)
 	{
-	System.out.println("\nVocê é de Menor");
+	System.out.println("\nVocÃª Ã© de Menor");
 	}
 	else
 	{
-	System.out.println("\nOpção Invalida");
+	System.out.println("\nOpÃ§Ã£o Invalida");
 	}
 }
 }
